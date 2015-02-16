@@ -1,3 +1,2 @@
-import sys
-greeting = print
-greeting(sys.argv[1])
+from helper import greeting
+greeting("hello")
